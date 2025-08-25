@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="calculator.css">
+
+</head>
+
+<body>
+
+     <div class="class-container">  
+          
+          <div class="input-group">
+               <input type="text" id="numbox">
+          </div>
+          <div class="input-group">
+               <button type="button" onclick="clearval()">C</button>
+               <button type="button" onclick="addval('%')">%</button>
+               <button type="button" onclick="removeval()">Del</button>
+               <button type="button" onclick="addval('/')">/</button>
+          </div>
+          <div class="input-group">
+               <button type="button" onclick="addval('7')">7</button>
+               <button type="button" onclick="addval('8')">8</button>
+               <button type="button" onclick="addval('9')">9</button>
+               <button type="button" onclick="addval('+')">+</button>
+          </div>
+          <div class="input-group">
+               <button type="button" onclick="addval('4')">4</button>
+               <button type="button" onclick="addval('5')">5</button>
+               <button type="button" onclick="addval('6')">6</button>
+               <button type="button" onclick="addval('-')">-</button>
+          </div>
+          <div class="input-group">
+               <button type="button" onclick="addval('1')">1</button>
+               <button type="button" onclick="addval('2')">2</button>
+               <button type="button" onclick="addval('3')">3</button>
+               <button type="button" onclick="addval('*')">*</button>
+          </div>
+          <div class="input-group">
+               <button type="button" onclick="addval('00')">00</button>
+               <button type="button" onclick="addval('0')">0</button>
+               <button type="button" onclick="addval('.')">.</button>
+               <button class="sum" type="button" onclick="result()">=</button>
+          </div>
+     </div>
+     <script src="calculator.js"></script>
+</body>
+
+</html>
